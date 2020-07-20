@@ -1,4 +1,4 @@
-class Solution {
+class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int maxArea = 0, l = 0, r = height.length - 1;
         while (l < r) {
